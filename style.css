@@ -23,7 +23,7 @@ h2 {
 }
 
 a {
-  color: #2D2B26;
+  color: #B2A692;
   opacity: 0.6;
   text-decoration: none;
 }
@@ -105,6 +105,28 @@ img {
   padding-bottom: 40px;
 }
 
+#sidebar {
+  background-color: #2D2B26;
+  position: fixed;
+  width: 80px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#side-menu {
+  color: #F4F4F2;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 0px;
+  line-height: 2.3em;
+  list-style-type: none;
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 300px;
+}
 /*Media Queries*/
 
 @media (max-width: 960px) {
